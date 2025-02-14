@@ -50,7 +50,7 @@ public class Fecha {
 	}
 
 	// M�todo diaSiguiente
-	public void diaSiguiente() {
+	public void nextday() {
 		d++;
 		if (!fechaCorrecta()) {
 			d = 1;
