@@ -57,7 +57,7 @@ public class Fecha {
 			m++;
 			if (!fechaCorrecta()) {
 				m = 1;
-				a++;
+				a++; 
 			}
 		}
 	}
